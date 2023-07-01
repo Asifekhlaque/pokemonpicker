@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(5, 0, 50);
+}
+.generter{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+#Pokemon{
+    width: 200px;
+}
+.img-card{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn-pokemon{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+button:active{
+    background-color: rgb(109, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-1{
+    margin-right: 10px;
+}
+.btn-2{
+    margin-right: 10px;
+}
+.btn-3{
+    background-color: rgb(0, 255, 17);
+}
